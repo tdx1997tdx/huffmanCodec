@@ -25,7 +25,7 @@ public class DataOperation {
         this.huffmanEncoding = huffmanEncoding;
     }
 
-    //数据根据huffman编码变成0101的字符串串
+    //数据根据huffman编码变成0101的字符串
     public  String dataToBinary(String data){
         StringBuilder res=new StringBuilder();
         char[] charData=data.toCharArray();
